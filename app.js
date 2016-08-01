@@ -35,8 +35,8 @@ $(document).ready(function(){
       });
   		
   	$('ul').on('click','.shopping-item-toggle',function(event){
-         $(this).closest(".shopping-item").toggleClass('shopping-item__checked');
-       //  $(this).parent().siblings('.shopping-item').toggleClass('shopping-item__checked');
+      //  $(this).closest(".shopping-item").toggleClass('shopping-item__checked');
+         $(this).parent().siblings('.shopping-item').toggleClass('shopping-item__checked');
   	});
          
 });
